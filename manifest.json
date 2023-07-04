@@ -1,0 +1,43 @@
+{
+  "name": "YouTube Bookmarker",
+  "version": "0.0.1",
+  "description": "Helps to save timestamps in YouTube videos",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://*.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/play.png",
+        "assets/delete.png",
+        "assets/save.png"
+      ],
+      "matches": ["https://*.youtube.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "48": "assets/ext-icon.png",
+      "96": "assets/ext-icon.png",
+      "128": "assets/ext-icon.png",
+      "250": "assets/ext-icon.png"
+    },
+    "default_title": "YouTube Bookmarker",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/ext-icon-128.png",
+    "48": "assets/ext-icon-128.png",
+    "128": "assets/ext-icon-128.png"
+  },
+  "manifest_version": 3
+}
