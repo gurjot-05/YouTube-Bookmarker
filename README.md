@@ -1,4 +1,6 @@
-# YouTube-Bookmarker
+# YouTube-Bookmarker 
+[LINK](https://chrome.google.com/webstore/detail/youtube-bookmarker/gecpckkekhhlgnkccealoapikeodamkl)
+
 The essential Chrome extension for passionate YouTube users. Effortlessly save and organize crucial timestamps within videos. No more tedious scrolling or endless searches. Mark and save timestamps with ease. Revisit your favorite moments, essential discussions, educational segments, or hilarious highlights.
 
 ## Simplify your YouTube experience with the following key features:
@@ -32,7 +34,6 @@ The essential Chrome extension for passionate YouTube users. Effortlessly save a
 
 7. Congratulations! The extension has now been loaded and installed in your Chrome browser.
 
-_Please note that the extension is currently awaiting approval from the Google team before being available in the Chrome Web Store. Once it's approved and published, I will update the link so that everyone can easily access and enjoy the extension._
 
 
 
